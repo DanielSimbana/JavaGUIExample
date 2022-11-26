@@ -45,7 +45,7 @@ public class App {
 
         sendButton.addActionListener(addMessage(chatTextField.getText(), chatHistory,chatTextField));
         resetButton.addActionListener(resetTextField(chatTextField));
-
+    
     }
 
         public static void resetTextField(JTextField target){
